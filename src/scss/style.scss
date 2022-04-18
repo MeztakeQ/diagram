@@ -1,0 +1,59 @@
+@import "global";
+
+.fp-watermark{
+    display: none;
+}
+
+
+.page {
+    width: 100%;
+    position: relative;
+    
+    
+}
+.page-one {
+}
+
+.page__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.page__img {
+}
+.page__img-picture {
+    
+}
+.page__content {
+}
+.page__content-text {
+    padding-left: 30px;
+    margin-bottom: 30px;
+    animation-duration: 3s;
+    position: relative;
+   display: flex;
+   width: 450px;
+   
+}
+
+.page__content-check--one{
+    animation-duration: 1s;
+}
+
+.page__content-check--two{
+    animation-duration: 2s;
+}
+
+.page__content-check--three{
+    animation-duration: 3s;
+}
+
+.page__content-check {
+    color: rgb(236, 106, 67);
+    font-size: 20px;
+}
+
+.page__content-descr{
+    margin-left: 10px;
+}
+

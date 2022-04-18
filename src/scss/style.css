@@ -1,0 +1,164 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+menu {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.mouse {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 35px;
+  width: 25px;
+  border-radius: 13px;
+  border: 2px solid #000;
+  margin-bottom: 3px;
+}
+
+.mouse .wheel {
+  -webkit-animation: mouse-wheel 1.5s ease infinite;
+          animation: mouse-wheel 1.5s ease infinite;
+  font-size: 15px;
+  margin: 0 4px;
+}
+
+@-webkit-keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+}
+
+@keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+}
+
+.fp-watermark {
+  display: none;
+}
+
+.page {
+  width: 100%;
+  position: relative;
+}
+
+.page__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page__content-text {
+  padding-left: 30px;
+  margin-bottom: 30px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+}
+
+.page__content-check--one {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.page__content-check--two {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.page__content-check--three {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.page__content-check {
+  color: #ec6a43;
+  font-size: 20px;
+}
+
+.page__content-descr {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
