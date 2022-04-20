@@ -57,3 +57,272 @@
     margin-left: 10px;
 }
 
+.page__button {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+     color: inherit;
+     background-color: transparent;
+     position: absolute;
+     top: 15%;
+     left: 12%;
+     z-index: 2;
+
+} 
+
+.page__button img{
+    width: 50px;
+}
+
+.page-five__button{
+    top: 32%;
+    left: 12%
+}
+
+
+
+
+.page-opendescr{
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    display: none;
+    left: 15%;
+    background-color: #fff;
+}
+
+.page-five__opendescr{
+    top: 25%;
+    position: absolute;
+}
+
+.page-opendescr {
+    width: 400px;
+    box-shadow: 0 0  5px rgb(172, 172, 172);
+    padding: 10px;
+}
+
+.page-opendescr__content-text {
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.page-opendescr__content-check {
+    color: rgb(236, 106, 67);
+}
+.page-opendescr__content-descr {
+    margin-left: 10px;
+}
+
+.page__content-title{
+    text-align: center;
+}
+
+.page-opendescr-title{
+    font-size: 15px;
+    text-align: center;
+}
+
+.page__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 70px 0;
+   
+}
+.page__inner-title {
+    font-size: 30px ;
+    font-weight: 300;
+    text-align: center;
+}
+.page__inner-title--bold {
+    font-weight: 600;
+}
+.page__item-link {
+    width: 300px;
+    height: 64px;
+    background: rgba(153, 153, 153, 1);
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #ffff;
+    margin-bottom: 30px;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.page__item-small {
+    font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+label input[type="checkbox"]:checked + .page__item-link {
+    background: green;
+   
+  }
+
+  label input[type="checkbox"]:checked + .page__item-link--false {
+    background: rgb(236, 106, 67);
+   
+  }
+
+  input[type="checkbox"]{
+      display: none;
+  }
+
+  .page__item-img{
+      width: 40px;
+      margin-right: 20px;
+  }
+
+
+
+.page__in-title{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(236, 106, 67);
+    margin-bottom: 30px;
+}
+.tablet{
+    
+}
+  .table{
+	border-spacing: 0px;
+  border-collapse: collapse;
+	table-layout: fixed;
+	width: 60%;
+	margin-top: 20px;
+    margin: 0 auto;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+
+.table__text{
+    width: 680px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.page__in {
+}
+.page__inner-title {
+    margin-bottom: 20px;
+}
+.page__inner-title--bold {
+}
+.page__itemsis {
+   margin: 0 auto;
+
+   
+}
+.page__itemses {
+    border: 1px solid rgb(190, 189, 189);
+    max-width: 600px;
+    min-height: 200px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: .5s;
+    
+}
+.page__contentent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.page__contentent-img {
+    width: 40px;
+    margin-right: 20px;
+}
+.page__info {
+}
+.page__info-title {
+    font-size: 15px;
+}
+.page__list {
+}
+.page__list-item {
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.page__info-text {
+    font-size: 12px;
+}
+.page__item-links {
+    margin: 0 auto;
+    padding: 10px 30px;
+    width: 200px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.page__itemses:hover{
+    background-color:#dddcdc;
+}
+.page__item-links--true:focus{
+    background-color: green;
+    color: #fff;
+}
+
+.page__item-links--false:focus{
+    background-color: rgb(236, 106, 67);
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+}
+
+.btn__link {
+    margin: 0 auto;
+    padding: 10px 30px;
+    width: 200px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+.btn__link-ok {
+    background-color: green;
+    color: #fff;
+}
+.btn__link-return {
+    background-color: rgb(236, 106, 67);
+    color: #fff;
+}
